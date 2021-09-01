@@ -1,0 +1,21 @@
+form .fiel-container {
+    margin: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+form .fiel-container label {
+    color: #fff;
+    background-color: #121212;
+    padding: 7px 15px;
+}
+
+form .fiel-container input {
+    padding: 6px 15px;
+    border: 1px solid #121212;
+    flex: 1;
+}
+
+.form-control {
+    border-radius: 0 !important;
+}

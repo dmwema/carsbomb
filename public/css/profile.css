@@ -1,0 +1,153 @@
+:root {
+    --lignt-gray: #b1a3ba;
+    --primary-color: #7a00ba;
+    --black: #080c24;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    font-size: 13px !important;
+}
+
+.btn.btn-primary {
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+}
+
+table {
+    text-align: center;
+    font-size: 12px;
+    opacity: .7;
+}
+
+.btn.btn-primary:focus {
+    outline: none;
+    border: none;
+}
+
+body {
+    color: var(--black);
+}
+
+.col.dashbord,
+.col.details {
+    padding: 40px 50px;
+}
+
+.col.details {
+    background-color: #fff;
+}
+
+.col.dashbord {
+    background-color: #fbfdff;
+    border-right: 1px solid #edeff3;
+}
+
+.dashbord img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.dashbord .names {
+    margin-left: 15px;
+}
+
+.dashbord h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.dashbord h3,
+.details .title {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.details .title {
+    text-transform: uppercase;
+    color: var(--black);
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.details .title {
+    text-transform: uppercase;
+    color: var(--lignt-gray);
+    font-size: 12px;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+.details .col.active .title {
+    color: var(--primary-color);
+    font-weight: 900;
+}
+
+.details .col .title {
+    display: inline-block;
+    margin: 0;
+}
+
+.details .tab-contents .title {
+    font-weight: bolder;
+    margin-left: 0;
+}
+
+.details .tab-contents p {
+    font-size: 14px;
+    opacity: .7;
+    margin-top: 10px;
+}
+
+.details .col.active .title::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 4px;
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    border-radius: 1px;
+}
+
+.dashbord p {
+    font-size: 12px;
+    opacity: .5;
+}
+
+.dashbord .money {
+    text-align: center;
+}
+
+hr {
+    border: 1px solid var(--lignt-gray);
+    opacity: .1;
+}
+
+hr.separate {
+    margin-top: -2px;
+}
+
+.credit-card {
+    letter-spacing: 5px;
+}
+
+.credit-card-title,
+td.edit {
+    font-size: 12px;
+}
+
+.contents {
+    display: none;
+}
+
+.contents.active {
+    display: block;
+}
