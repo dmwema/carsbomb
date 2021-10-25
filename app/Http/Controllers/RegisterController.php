@@ -39,9 +39,10 @@ class RegisterController extends Controller
         $player->country = $request->country;
 
         // upload image
-        $imageName = time().'.'.$request->image->extension();  
-        $request->image->move(public_path('assets/images/players'), $imageName);
-        $player->image = $imageName;
+        // $imageName = time().'.'.$request->image->extension();  
+        //$request->image->move(public_path('assets/images/players'), $imageName);
+        $player->image = 'teste';
+        // $player->image = $imageName;
 
         $player->credit_card = $request->credit_card;
         $player->postal_adress = $request->postal_adress;
